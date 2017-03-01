@@ -32,5 +32,5 @@ titanicoriginal$has_cabin_no <-ifelse(titanicoriginal$cabin == "NONE",
                                       "0", "1")
 View(titanicoriginal)
 Titanic.Clean <- titanicoriginal
-write.csv <-("Titanic.Clean.csv")
+write.csv(Titanic.Clean, "Titanic.Clean.csv")
 View(Titanic.Clean)
